@@ -1,0 +1,6 @@
+# https://clashparty.org/docs/guide/override/yaml
++rules:
+  - DOMAIN-SUFFIX,jiguang.cn,DIRECT
+  - DOMAIN-SUFFIX,lunz.cn,DIRECT
+  - DOMAIN-SUFFIX,umeng.com,DIRECT
+  - DOMAIN-SUFFIX,kreadoai.com,GLOBAL
