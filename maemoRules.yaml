@@ -1,3 +1,5 @@
+name: maemoRules
+desc: Maemo Personal Rules
 # https://clashparty.org/docs/guide/override/yaml
 +rules:
   - DOMAIN-SUFFIX,jiguang.cn,DIRECT

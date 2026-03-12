@@ -1,3 +1,6 @@
+name: AIDeveloperRules
+desc: Rules for AI Developer Services
+
 rule-providers:
   github:
     type: http
