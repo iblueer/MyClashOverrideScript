@@ -6,3 +6,5 @@ desc: Maemo Personal Rules
   - DOMAIN-SUFFIX,lunz.cn,DIRECT
   - DOMAIN-SUFFIX,umeng.com,DIRECT
   - DOMAIN-SUFFIX,kreadoai.com,GLOBAL
+  - DOMAIN-SUFFIX,railgun.tech,DIRECT
+  - DOMAIN-SUFFIX,maemo.cc,GLOBAL
