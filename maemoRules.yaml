@@ -9,3 +9,4 @@ desc: Maemo Personal Rules
   - DOMAIN-SUFFIX,railgun.tech,DIRECT
   - DOMAIN-SUFFIX,maemo.cc,GLOBAL
   - DOMAIN-SUFFIX,www.affinity.studio,GLOBAL
+  - DOMAIN-SUFFIX,uspto.report,GLOBAL
