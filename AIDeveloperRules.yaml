@@ -42,3 +42,6 @@ rule-providers:
 
   - DOMAIN-SUFFIX,anyrouter.top,GLOBAL
   - DOMAIN-SUFFIX,a-ocnfniawgw.cn-shanghai.fcapp.run,DIRECT
+
+  - DOMAIN-SUFFIX,ai.dooo.ng,GLOBAL
+  - DOMAIN-SUFFIX,ai.ijunze.cn,GLOBAL
