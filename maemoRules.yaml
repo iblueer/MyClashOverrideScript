@@ -10,3 +10,4 @@ desc: Maemo Personal Rules
   - DOMAIN-SUFFIX,maemo.cc,GLOBAL
   - DOMAIN-SUFFIX,www.affinity.studio,GLOBAL
   - DOMAIN-SUFFIX,uspto.report,GLOBAL
+  - DOMAIN-SUFFIX,ac.lunz.cn,DIRECT
