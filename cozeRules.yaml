@@ -1,0 +1,27 @@
+name: cozeRules
+desc: Coze.cn Direct
+# https://clashparty.org/docs/guide/override/yaml
++rules:
+  # 扣子相关域名直连规则
+  # 放在规则列表的前面（在 MATCH 之前）
+
+  # 扣子主站
+  - DOMAIN-SUFFIX,coze.cn,DIRECT
+  - DOMAIN-SUFFIX,coze.com,DIRECT
+
+  # 火山引擎（扣子后端）
+  - DOMAIN-SUFFIX,volcengine.com,DIRECT
+  - DOMAIN-SUFFIX,volces.com,DIRECT
+
+  # 字节系 CDN（图片、文件上传等）
+  - DOMAIN-SUFFIX,byteimg.com,DIRECT
+  - DOMAIN-SUFFIX,bytednsdoc.com,DIRECT
+  - DOMAIN-SUFFIX,bytecdntp.com,DIRECT
+  - DOMAIN-SUFFIX,byteoversea.com,DIRECT
+
+  # 字节跳动
+  - DOMAIN-SUFFIX,bytedance.com,DIRECT
+  - DOMAIN-SUFFIX,bytedance.org,DIRECT
+
+  # 火山引擎对象存储（图片、文件）
+  - DOMAIN-KEYWORD,tos-cn,DIRECT
