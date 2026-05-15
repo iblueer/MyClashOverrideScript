@@ -11,3 +11,4 @@ desc: Maemo Personal Rules
   - DOMAIN-SUFFIX,www.affinity.studio,GLOBAL
   - DOMAIN-SUFFIX,uspto.report,GLOBAL
   - DOMAIN-SUFFIX,ac.lunz.cn,DIRECT
+  - DOMAIN-SUFFIX,flomoapp.com,DIRECT
