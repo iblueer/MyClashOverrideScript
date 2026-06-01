@@ -45,3 +45,4 @@ rule-providers:
 
   - DOMAIN-SUFFIX,ai.dooo.ng,GLOBAL
   - DOMAIN-SUFFIX,ai.ijunze.cn,DIRECT
+  - DOMAIN-SUFFIX,sixai.top,DIRECT
