@@ -1,0 +1,12 @@
+rules:
+  # 汇丰香港官网及网银 (HSBC HK)
+  - DOMAIN-SUFFIX,hsbc.com.hk,DIRECT
+  - DOMAIN-SUFFIX,hsbc.com.cn,DIRECT
+  - DOMAIN-KEYWORD,hsbc,DIRECT
+  
+  # 汇丰信用卡/Reward+ 移动端 App 常用域名
+  - DOMAIN-KEYWORD,hsbc.com,DIRECT
+  - DOMAIN-SUFFIX,hsbc.com,DIRECT
+  - DOMAIN-KEYWORD,rewardplus,DIRECT
+  - DOMAIN-SUFFIX,payme.com.hk,DIRECT
+  - DOMAIN,hsbchkm.hsbc.com.hk,DIRECT
