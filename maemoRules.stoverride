@@ -1,0 +1,14 @@
+name: maemoRules
+desc: Maemo Personal Rules
+# https://clashparty.org/docs/guide/override/yaml
+rules:
+  - DOMAIN-SUFFIX,jiguang.cn,DIRECT
+  - DOMAIN-SUFFIX,lunz.cn,DIRECT
+  - DOMAIN-SUFFIX,umeng.com,DIRECT
+  - DOMAIN-SUFFIX,kreadoai.com,GLOBAL
+  - DOMAIN-SUFFIX,railgun.tech,DIRECT
+  - DOMAIN-SUFFIX,maemo.cc,GLOBAL
+  - DOMAIN-SUFFIX,www.affinity.studio,GLOBAL
+  - DOMAIN-SUFFIX,uspto.report,GLOBAL
+  - DOMAIN-SUFFIX,ac.lunz.cn,DIRECT
+  - DOMAIN-SUFFIX,flomoapp.com,DIRECT
