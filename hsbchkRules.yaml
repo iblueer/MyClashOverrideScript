@@ -1,7 +1,7 @@
 name: hsbchkRules
 desc: HSBCHK Direct
 
-rules:
++rules:
   # 汇丰香港官网及网银 (HSBC HK)
   - DOMAIN-SUFFIX,hsbc.com.hk,DIRECT
   - DOMAIN-SUFFIX,hsbc.com.cn,DIRECT
