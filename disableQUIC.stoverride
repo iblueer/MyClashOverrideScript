@@ -1,0 +1,4 @@
+name: Disable QUIC
+
+rules:
+  - SCRIPT,quic,REJECT,no-track

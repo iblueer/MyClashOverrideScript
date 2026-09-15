@@ -1,0 +1,11 @@
+name: Disable QUIC
+desc: 阻断 QUIC（UDP 443），让浏览器回落到 TCP/HTTPS
+
+# https://clashparty.org/docs/guide/override/yaml
+# +rules 为前置插入，必须排在其它规则之前才会优先生效
++rules:
+  # mihomo 逻辑规则：UDP + 目标端口 443 一律拒绝
+  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
+
+  # 如需放行某些走 QUIC 的服务，在其后补充放行规则即可，例如：
+  # - AND,((DOMAIN-SUFFIX,cloudflare.com),(DST-PORT,443)),DIRECT
