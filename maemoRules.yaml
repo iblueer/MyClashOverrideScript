@@ -4,11 +4,12 @@ desc: Maemo Personal Rules
 +rules:
   - DOMAIN-SUFFIX,jiguang.cn,DIRECT
   - DOMAIN-SUFFIX,lunz.cn,DIRECT
+  - DOMAIN-SUFFIX,ac.lunz.cn,DIRECT
+  - DOMAIN-SUFFIX,lunztech.cn,DIRECT
   - DOMAIN-SUFFIX,umeng.com,DIRECT
   - DOMAIN-SUFFIX,kreadoai.com,GLOBAL
   - DOMAIN-SUFFIX,railgun.tech,DIRECT
   - DOMAIN-SUFFIX,maemo.cc,GLOBAL
   - DOMAIN-SUFFIX,www.affinity.studio,GLOBAL
   - DOMAIN-SUFFIX,uspto.report,GLOBAL
-  - DOMAIN-SUFFIX,ac.lunz.cn,DIRECT
   - DOMAIN-SUFFIX,flomoapp.com,DIRECT
