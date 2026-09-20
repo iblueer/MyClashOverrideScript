@@ -34,11 +34,11 @@ rule-providers:
   - RULE-SET,github,GLOBAL
   - RULE-SET,claude,GLOBAL
   # ChatGPT and Codex
-  - RULE-SET,openai,🇯🇵日本节点
+  - RULE-SET,openai,GLOBAL
   # Gemini and Antigravity
-  - RULE-SET,gemini,🇺🇸美国节点
-  - PROCESS-NAME,agy,🇺🇸美国节点
-  - PROCESS-NAME,language_server,🇺🇸美国节点
+  - RULE-SET,gemini,GLOBAL
+  - PROCESS-NAME,agy,GLOBAL
+  - PROCESS-NAME,language_server,GLOBAL
   #国内
   - DOMAIN-SUFFIX,qiniu.com,DIRECT
   - DOMAIN-SUFFIX,qiniup.com,DIRECT
