@@ -32,17 +32,22 @@ rule-providers:
 
 rules:
   - RULE-SET,github,GLOBAL
-  - RULE-SET,openai,GLOBAL
-  - RULE-SET,gemini,GLOBAL
   - RULE-SET,claude,GLOBAL
-
+  
+  # ChatGPT and Codex
+  - RULE-SET,openai,GLOBAL
+  # Gemini and Antigravity
+  - RULE-SET,gemini,GLOBAL
+  - PROCESS-NAME,agy,GLOBAL
+  - PROCESS-NAME,language_server,GLOBAL
+  # Meta
+  - DOMAIN,muse.ai,GLOBAL
+  #国内
   - DOMAIN-SUFFIX,qiniu.com,DIRECT
   - DOMAIN-SUFFIX,qiniup.com,DIRECT
+  - DOMAIN-SUFFIX,qnaigc.com,DIRECT
   - DOMAIN-SUFFIX,volcengine.com,DIRECT
-
-  - DOMAIN-SUFFIX,anyrouter.top,GLOBAL
-  - DOMAIN-SUFFIX,a-ocnfniawgw.cn-shanghai.fcapp.run,DIRECT
-
-  - DOMAIN-SUFFIX,ai.dooo.ng,GLOBAL
-  - DOMAIN-SUFFIX,ai.ijunze.cn,DIRECT
-  - DOMAIN-SUFFIX,sixai.top,DIRECT
+  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+  - DOMAIN-SUFFIX,deepseek.com,DIRECT
+  - DOMAIN-SUFFIX,moonshot.cn,DIRECT
+  - DOMAIN-SUFFIX,bigmodel.cn,DIRECT

@@ -39,6 +39,8 @@ rule-providers:
   - RULE-SET,gemini,GLOBAL
   - PROCESS-NAME,agy,GLOBAL
   - PROCESS-NAME,language_server,GLOBAL
+  # Meta
+  - DOMAIN,muse.ai,GLOBAL
   #国内
   - DOMAIN-SUFFIX,qiniu.com,DIRECT
   - DOMAIN-SUFFIX,qiniup.com,DIRECT
