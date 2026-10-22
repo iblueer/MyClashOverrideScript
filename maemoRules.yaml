@@ -9,7 +9,7 @@ desc: Maemo Personal Rules
   - DOMAIN-SUFFIX,umeng.com,DIRECT
   - DOMAIN-SUFFIX,kreadoai.com,GLOBAL
   - DOMAIN-SUFFIX,railgun.tech,DIRECT
-  - DOMAIN-SUFFIX,maemo.cc,GLOBAL
+  - DOMAIN-SUFFIX,maemo.cc,DIRECT
   - DOMAIN-SUFFIX,www.affinity.studio,GLOBAL
   - DOMAIN-SUFFIX,uspto.report,GLOBAL
   - DOMAIN-SUFFIX,flomoapp.com,DIRECT
